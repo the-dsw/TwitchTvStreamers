@@ -1,0 +1,87 @@
+
+
+body {
+  background-color: #ccc;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
+  color: black;
+}
+
+a, a:focus, a:hover, a:visited {
+  color: peru;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 0px;
+  font-size: 3em;
+}
+
+.container {
+  background-color: #ccc;
+  margin: 0px auto;
+  padding: 0px;
+  max-width: 700px;
+}
+
+.row {
+  margin: 2px 0px;
+  padding: 5px;
+  line-height: 50px;
+  background-color: white;
+}
+
+.menu {
+    position: absolute;
+    right: 10px;
+    top: 90px;
+}
+.selector {
+    line-height: 20px;
+    height: 50px;
+    padding: 0px 5px;
+    margin: 2px 0px;
+    overflow: hidden;
+    float: right;
+  }
+.active, .selector:hover {
+    cursor: pointer;
+}
+
+#header {
+    position: relative;
+    color: #010101;
+    padding: 5px 65px 5px 100px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+}
+
+.offline {
+    background-color: darkslategray;
+    color: powderblue;
+}
+
+.online {
+  background-color: palegreen;
+  color: #010101;
+  
+}
+
+#streaming {
+  font-style: italic;
+}
+
+#name, #streaming {
+  line-height: 25px;
+  overflow: hidden;
+  text-align: center;
+}
+
